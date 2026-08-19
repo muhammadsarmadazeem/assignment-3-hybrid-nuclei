@@ -1,0 +1,27 @@
+{
+  "image_id": "train_001",
+  "feature_text": "Image train_001: 27 connected components. Area (px): mean=204.9, median=173.0, std=109.8, min=65.0, max=556.0. Mean eccentricity=0.566, mean solidity=0.956, mean intensity=0.713 (0\u20131 grayscale). Foreground area fraction=0.0844.",
+  "stats": {
+    "n_objects": 27,
+    "mean_area": 204.88888888888889,
+    "median_area": 173.0,
+    "std_area": 109.79419580332451,
+    "mean_eccentricity": 0.5663731645624519,
+    "mean_solidity": 0.9556487619540205,
+    "mean_intensity": 0.7127898556214792,
+    "area_fraction": 0.08441162109375,
+    "min_area": 65.0,
+    "max_area": 556.0
+  },
+  "n_rows": 27,
+  "prompt": "You are an educational biomedical-image analyst. You never see the image.\nYou receive a quantitative summary produced by classical image processing\n(Otsu thresholding, morphological cleanup, and scikit-image regionprops).\n\nUsing ONLY those numbers, return ONLY a JSON object with exactly these keys:\n{\n  \"n_objects\": <integer>,\n  \"density_class\": \"<sparse | normal | dense | clustered | uncertain>\",\n  \"shape_regularity\": \"<regular | mixed | irregular | uncertain>\",\n  \"quality_flag\": \"<ok | low_contrast | fragmented | uncertain>\",\n  \"narrative\": \"<one paragraph, descriptive not diagnostic, citing n_objects, mean area, eccentricity, and solidity>\"\n}\n\nGuidance for the JSON fields:\n- density_class: sparse if n_objects < 15; normal if 15\u201344; dense if >= 45;\n  clustered if objects are numerous AND mean solidity is high but the text\n  mentions touching/merged regions; uncertain if the numbers conflict.\n- shape_regularity: regular if mean eccentricity < 0.55 and mean solidity > 0.85;\n  irregular if mean eccentricity > 0.75 or mean solidity < 0.7; else mixed.\n- quality_flag: fragmented if many tiny objects (mean area very small relative\n  to the image); low_contrast if mean intensity is extreme; else ok.\n\nDo not invent a diagnosis. Do not mention organs or diseases not supported by the numbers.\n",
+  "raw": "{\n  \"n_objects\": 27,\n  \"density_class\": \"normal\",\n  \"shape_regularity\": \"mixed\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"The image contains a moderate number of objects with varying sizes and shapes. The mean area of the objects is 204.9 pixels, indicating a range of sizes. The mean eccentricity of 0.566 and mean solidity of 0.956 suggest that the objects are generally well-formed, but with some irregularities. The foreground area fraction is relatively low at 0.0844, indicating that the objects occupy a small portion of the image.\"\n}",
+  "llm_json": {
+    "n_objects": 27,
+    "density_class": "normal",
+    "shape_regularity": "mixed",
+    "quality_flag": "ok",
+    "narrative": "The image contains a moderate number of objects with varying sizes and shapes. The mean area of the objects is 204.9 pixels, indicating a range of sizes. The mean eccentricity of 0.566 and mean solidity of 0.956 suggest that the objects are generally well-formed, but with some irregularities. The foreground area fraction is relatively low at 0.0844, indicating that the objects occupy a small portion of the image."
+  },
+  "narrative": "The image contains a moderate number of objects with varying sizes and shapes. The mean area of the objects is 204.9 pixels, indicating a range of sizes. The mean eccentricity of 0.566 and mean solidity of 0.956 suggest that the objects are generally well-formed, but with some irregularities. The foreground area fraction is relatively low at 0.0844, indicating that the objects occupy a small portion of the image."
+}

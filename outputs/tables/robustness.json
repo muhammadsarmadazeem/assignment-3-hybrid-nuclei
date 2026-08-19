@@ -1,0 +1,36 @@
+{
+  "clean_id": "test_000",
+  "corrupt_name": "test_000_blur.png",
+  "earliest_detectable_stage": "image (Laplacian variance / contrast)",
+  "image_delta": {
+    "mean_intensity_clean": 0.05390140786767006,
+    "mean_intensity_corr": 0.05183488875627518,
+    "std_intensity_clean": 0.1010332703590393,
+    "std_intensity_corr": 0.05661868304014206,
+    "laplacian_var_clean": 0.02504841424524784,
+    "laplacian_var_corr": 1.0018588909588289e-05
+  },
+  "mask_delta": {
+    "n_objects_clean": 8,
+    "n_objects_corr": 7,
+    "mean_area_clean": 190.0,
+    "mean_area_corr": 509.7142857142857,
+    "area_fraction_clean": 0.023193359375,
+    "area_fraction_corr": 0.054443359375,
+    "mask_pixel_agreement": 0.96875
+  },
+  "clean_json": {
+    "n_objects": null,
+    "mean_area": null,
+    "density_class": null,
+    "quality_flag": null,
+    "narrative": "Image test_000: 8 connected components. Area (px): mean=190.0, median=175.5, std=103.3, min=59.0, max=425.0. Mean eccentricity=0.639, mean solidity=0.969, mean intensity=0.658 (0\u20131 grayscale). Foreground area fraction=0.0232."
+  },
+  "corr_json": {
+    "n_objects": null,
+    "mean_area": null,
+    "density_class": null,
+    "quality_flag": null,
+    "narrative": "Image test_000_blur: 7 connected components. Area (px): mean=509.7, median=376.0, std=294.2, min=155.0, max=1056.0. Mean eccentricity=0.446, mean solidity=0.963, mean intensity=0.236 (0\u20131 grayscale). Foreground area fraction=0.0544."
+  }
+}

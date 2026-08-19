@@ -1,0 +1,12 @@
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+pandas>=2.0
+scikit-image>=0.22
+matplotlib>=3.8
+pillow>=10.0
+tqdm>=4.66
+requests>=2.31
+imageio>=2.34
+transformers>=4.40
+huggingface_hub>=0.23

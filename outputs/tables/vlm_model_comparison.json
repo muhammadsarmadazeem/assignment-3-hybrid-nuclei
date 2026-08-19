@@ -1,0 +1,35 @@
+{
+  "image_id": "train_001",
+  "prompt": "You are a biomedical *image-description* assistant for an educational coursework exercise.\nYou are NOT a clinician. Do not diagnose disease, name a pathology, or recommend treatment.\n\nDescribe only what is visually present. If a field is unclear, write \"uncertain\" rather than guessing.\n\nReturn ONLY a JSON object with exactly these keys:\n{\n  \"modality\": \"<string; e.g. fluorescence microscopy, or uncertain>\",\n  \"tissue_type\": \"<string; e.g. stained cell nuclei, or uncertain>\",\n  \"notable_features\": [\"<short visual observations>\"],\n  \"image_quality\": \"<good | acceptable | poor | uncertain>\"\n}\n\nRules:\n- Do not invent an object count unless the objects are clearly countable in the image.\n- Do not mention cancer, infection, inflammation, or any clinical condition.\n- Prefer \"uncertain\" over speculation.\n- No markdown, no prose outside the JSON object.\n",
+  "models": [
+    "llama3.2-vision",
+    "llava"
+  ],
+  "llama3.2-vision": {
+    "json": {
+      "modality": "fluorescence microscopy",
+      "tissue_type": "stained cell nuclei",
+      "notable_features": [
+        "blue spots",
+        "uniform size",
+        "evenly distributed"
+      ],
+      "image_quality": "good"
+    },
+    "raw": "{ \n  \"modality\": \"fluorescence microscopy\",\n  \"tissue_type\": \"stained cell nuclei\",\n  \"notable_features\": [\"blue spots\", \"uniform size\", \"evenly distributed\"],\n  \"image_quality\": \"good\"\n}",
+    "model": "llama3.2-vision"
+  },
+  "llava": {
+    "json": {
+      "modality": "fluorescence microscopy",
+      "tissue_type": "stained cell nuclei",
+      "notable_features": [
+        "blue dots scattered throughout the image"
+      ],
+      "image_quality": "uncertain"
+    },
+    "raw": "{\n  \"modality\": \"fluorescence microscopy\",\n  \"tissue_type\": \"stained cell nuclei\",\n  \"notable_features\": [\"blue dots scattered throughout the image\"],\n  \"image_quality\": \"uncertain\"\n}",
+    "model": "llava"
+  },
+  "json_identical": false
+}

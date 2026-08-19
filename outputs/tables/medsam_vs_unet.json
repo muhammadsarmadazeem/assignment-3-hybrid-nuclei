@@ -1,0 +1,211 @@
+{
+  "protocol": "MedSAM ViT-B (flaviagiammarino/medsam-vit-base); no GT boxes",
+  "mean_unet_dice": 0.9955855250358582,
+  "mean_unet_iou": 0.991213035583496,
+  "mean_medsam_fullbox_dice": 0.13805977320298551,
+  "mean_medsam_fullbox_iou": 0.07609191122464835,
+  "mean_medsam_otsubox_dice": 0.9048560053110123,
+  "mean_medsam_otsubox_iou": 0.826571774482727,
+  "per_image": [
+    {
+      "image_id": "val_000",
+      "unet_dice": 0.9960722923278809,
+      "unet_iou": 0.992175281047821,
+      "medsam_fullbox_dice": 0.020822132006287575,
+      "medsam_fullbox_iou": 0.010520596988499165,
+      "medsam_otsubox_dice": 0.8735474944114685,
+      "medsam_otsubox_iou": 0.7754854559898376,
+      "n_otsu_boxes": 5
+    },
+    {
+      "image_id": "val_001",
+      "unet_dice": 0.9972972869873047,
+      "unet_iou": 0.9946091771125793,
+      "medsam_fullbox_dice": 0.12767119705677032,
+      "medsam_fullbox_iou": 0.06818845123052597,
+      "medsam_otsubox_dice": 0.8994989991188049,
+      "medsam_otsubox_iou": 0.817354142665863,
+      "n_otsu_boxes": 26
+    },
+    {
+      "image_id": "val_002",
+      "unet_dice": 0.9964093565940857,
+      "unet_iou": 0.9928443431854248,
+      "medsam_fullbox_dice": 0.0862465500831604,
+      "medsam_fullbox_iou": 0.04506669566035271,
+      "medsam_otsubox_dice": 0.8916010856628418,
+      "medsam_otsubox_iou": 0.8044044971466064,
+      "n_otsu_boxes": 16
+    },
+    {
+      "image_id": "val_003",
+      "unet_dice": 0.9963722229003906,
+      "unet_iou": 0.9927707314491272,
+      "medsam_fullbox_dice": 0.1876492202281952,
+      "medsam_fullbox_iou": 0.1035391241312027,
+      "medsam_otsubox_dice": 0.9189963340759277,
+      "medsam_otsubox_iou": 0.8501324653625488,
+      "n_otsu_boxes": 28
+    },
+    {
+      "image_id": "val_004",
+      "unet_dice": 0.9939793944358826,
+      "unet_iou": 0.9880307912826538,
+      "medsam_fullbox_dice": 0.3330612778663635,
+      "medsam_fullbox_iou": 0.1998041421175003,
+      "medsam_otsubox_dice": 0.9137052297592163,
+      "medsam_otsubox_iou": 0.8411208987236023,
+      "n_otsu_boxes": 45
+    },
+    {
+      "image_id": "val_005",
+      "unet_dice": 0.9933581352233887,
+      "unet_iou": 0.9868039488792419,
+      "medsam_fullbox_dice": 0.1883876770734787,
+      "medsam_fullbox_iou": 0.10398895293474197,
+      "medsam_otsubox_dice": 0.9149906039237976,
+      "medsam_otsubox_iou": 0.8433020114898682,
+      "n_otsu_boxes": 18
+    },
+    {
+      "image_id": "val_006",
+      "unet_dice": 0.994563639163971,
+      "unet_iou": 0.9891861081123352,
+      "medsam_fullbox_dice": 0.052230820059776306,
+      "medsam_fullbox_iou": 0.026815712451934814,
+      "medsam_otsubox_dice": 0.9163597822189331,
+      "medsam_otsubox_iou": 0.8456310629844666,
+      "n_otsu_boxes": 8
+    },
+    {
+      "image_id": "val_007",
+      "unet_dice": 0.994994580745697,
+      "unet_iou": 0.990039050579071,
+      "medsam_fullbox_dice": 0.1447577178478241,
+      "medsam_fullbox_iou": 0.07802630960941315,
+      "medsam_otsubox_dice": 0.8966373801231384,
+      "medsam_otsubox_iou": 0.8126407265663147,
+      "n_otsu_boxes": 20
+    },
+    {
+      "image_id": "val_008",
+      "unet_dice": 0.9972399473190308,
+      "unet_iou": 0.9944950938224792,
+      "medsam_fullbox_dice": 0.14971357583999634,
+      "medsam_fullbox_iou": 0.0809137225151062,
+      "medsam_otsubox_dice": 0.9110066294670105,
+      "medsam_otsubox_iou": 0.83655846118927,
+      "n_otsu_boxes": 21
+    },
+    {
+      "image_id": "val_009",
+      "unet_dice": 0.9943006038665771,
+      "unet_iou": 0.9886658191680908,
+      "medsam_fullbox_dice": 0.09017632901668549,
+      "medsam_fullbox_iou": 0.047217097133398056,
+      "medsam_otsubox_dice": 0.8857184052467346,
+      "medsam_otsubox_iou": 0.7948784232139587,
+      "n_otsu_boxes": 20
+    },
+    {
+      "image_id": "val_010",
+      "unet_dice": 0.9937934279441833,
+      "unet_iou": 0.9876634478569031,
+      "medsam_fullbox_dice": 0.2532033920288086,
+      "medsam_fullbox_iou": 0.14495299756526947,
+      "medsam_otsubox_dice": 0.8862427473068237,
+      "medsam_otsubox_iou": 0.7957234382629395,
+      "n_otsu_boxes": 43
+    },
+    {
+      "image_id": "val_011",
+      "unet_dice": 0.9940288066864014,
+      "unet_iou": 0.9881284832954407,
+      "medsam_fullbox_dice": 0.1272738128900528,
+      "medsam_fullbox_iou": 0.06796178221702576,
+      "medsam_otsubox_dice": 0.9285948872566223,
+      "medsam_otsubox_iou": 0.8667075037956238,
+      "n_otsu_boxes": 14
+    },
+    {
+      "image_id": "val_012",
+      "unet_dice": 0.9952644109725952,
+      "unet_iou": 0.9905734658241272,
+      "medsam_fullbox_dice": 0.03996701166033745,
+      "medsam_fullbox_iou": 0.020390989258885384,
+      "medsam_otsubox_dice": 0.9226841926574707,
+      "medsam_otsubox_iou": 0.8564658164978027,
+      "n_otsu_boxes": 8
+    },
+    {
+      "image_id": "val_013",
+      "unet_dice": 0.9960598945617676,
+      "unet_iou": 0.9921507239341736,
+      "medsam_fullbox_dice": 0.1283929944038391,
+      "medsam_fullbox_iou": 0.06860040128231049,
+      "medsam_otsubox_dice": 0.8912301659584045,
+      "medsam_otsubox_iou": 0.8038008809089661,
+      "n_otsu_boxes": 25
+    },
+    {
+      "image_id": "val_014",
+      "unet_dice": 0.9964345097541809,
+      "unet_iou": 0.9928943514823914,
+      "medsam_fullbox_dice": 0.11395581811666489,
+      "medsam_fullbox_iou": 0.06042054295539856,
+      "medsam_otsubox_dice": 0.9163485765457153,
+      "medsam_otsubox_iou": 0.8456119298934937,
+      "n_otsu_boxes": 17
+    },
+    {
+      "image_id": "val_015",
+      "unet_dice": 0.9970536231994629,
+      "unet_iou": 0.9941245317459106,
+      "medsam_fullbox_dice": 0.14501269161701202,
+      "medsam_fullbox_iou": 0.07817449420690536,
+      "medsam_otsubox_dice": 0.9101978540420532,
+      "medsam_otsubox_iou": 0.8351955413818359,
+      "n_otsu_boxes": 21
+    },
+    {
+      "image_id": "val_016",
+      "unet_dice": 0.9955030083656311,
+      "unet_iou": 0.9910462498664856,
+      "medsam_fullbox_dice": 0.26265743374824524,
+      "medsam_fullbox_iou": 0.15118344128131866,
+      "medsam_otsubox_dice": 0.9115696549415588,
+      "medsam_otsubox_iou": 0.837508499622345,
+      "n_otsu_boxes": 37
+    },
+    {
+      "image_id": "val_017",
+      "unet_dice": 0.9956864714622498,
+      "unet_iou": 0.9914100766181946,
+      "medsam_fullbox_dice": 0.1713312268257141,
+      "medsam_fullbox_iou": 0.09369178116321564,
+      "medsam_otsubox_dice": 0.9212893843650818,
+      "medsam_otsubox_iou": 0.8540652990341187,
+      "n_otsu_boxes": 19
+    },
+    {
+      "image_id": "val_018",
+      "unet_dice": 0.9979347586631775,
+      "unet_iou": 0.9958779811859131,
+      "medsam_fullbox_dice": 0.03794243931770325,
+      "medsam_fullbox_iou": 0.019338086247444153,
+      "medsam_otsubox_dice": 0.8917620778083801,
+      "medsam_otsubox_iou": 0.8046666383743286,
+      "n_otsu_boxes": 7
+    },
+    {
+      "image_id": "val_019",
+      "unet_dice": 0.9953641295433044,
+      "unet_iou": 0.9907710552215576,
+      "medsam_fullbox_dice": 0.1007421463727951,
+      "medsam_fullbox_iou": 0.053042903542518616,
+      "medsam_otsubox_dice": 0.8951386213302612,
+      "medsam_otsubox_iou": 0.8101817965507507,
+      "n_otsu_boxes": 19
+    }
+  ]
+}

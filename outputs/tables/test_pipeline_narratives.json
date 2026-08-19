@@ -1,0 +1,170 @@
+[
+  {
+    "image_id": "test_000",
+    "narrative": "This image contains 8 objects, with an average area of 192.5 pixels. The objects are spread out, indicating a sparse density.",
+    "json": {
+      "image_id": "test_000",
+      "n_objects": 8,
+      "mean_area": 192.5,
+      "density_class": "sparse",
+      "quality_flag": "ok",
+      "narrative": "This image contains 8 objects, with an average area of 192.5 pixels. The objects are spread out, indicating a sparse density.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_000\",\n  \"n_objects\": 8,\n  \"mean_area\": 192.5,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 8 objects, with an average area of 192.5 pixels. The objects are spread out, indicating a sparse density.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_001",
+    "narrative": "This image contains 14 objects, with an average area of 202.5 pixels. The objects are spread out, indicating a sparse density.",
+    "json": {
+      "image_id": "test_001",
+      "n_objects": 14,
+      "mean_area": 202.5,
+      "density_class": "sparse",
+      "quality_flag": "ok",
+      "narrative": "This image contains 14 objects, with an average area of 202.5 pixels. The objects are spread out, indicating a sparse density.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_001\",\n  \"n_objects\": 14,\n  \"mean_area\": 202.5,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 14 objects, with an average area of 202.5 pixels. The objects are spread out, indicating a sparse density.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_002",
+    "narrative": "This image contains a moderate number of objects, with an average area of approximately 221 square pixels. The objects are not overly crowded or sparse, suggesting a well-balanced composition.",
+    "json": {
+      "image_id": "test_002",
+      "n_objects": 26,
+      "mean_area": 221.038,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains a moderate number of objects, with an average area of approximately 221 square pixels. The objects are not overly crowded or sparse, suggesting a well-balanced composition.",
+      "llm_density_class": "normal",
+      "_llm_raw": "{\n  \"image_id\": \"test_002\",\n  \"n_objects\": 26,\n  \"mean_area\": 221.038,\n  \"density_class\": \"normal\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains a moderate number of objects, with an average area of approximately 221 square pixels. The objects are not overly crowded or sparse, suggesting a well-balanced composition.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_003",
+    "narrative": "This image contains a high number of objects, with a mean area of approximately 206.1 pixels. The objects are densely packed, indicating a complex scene.",
+    "json": {
+      "image_id": "test_003",
+      "n_objects": 19,
+      "mean_area": 206.105,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains a high number of objects, with a mean area of approximately 206.1 pixels. The objects are densely packed, indicating a complex scene.",
+      "llm_density_class": "dense",
+      "_llm_raw": "{\n  \"image_id\": \"test_003\",\n  \"n_objects\": 19,\n  \"mean_area\": 206.105,\n  \"density_class\": \"dense\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains a high number of objects, with a mean area of approximately 206.1 pixels. The objects are densely packed, indicating a complex scene.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_004",
+    "narrative": "This image contains a high number of objects, with an average area of approximately 339 pixels. The density of objects is dense, indicating a high level of complexity in the scene.",
+    "json": {
+      "image_id": "test_004",
+      "n_objects": 42,
+      "mean_area": 338.667,
+      "density_class": "dense",
+      "quality_flag": "ok",
+      "narrative": "This image contains a high number of objects, with an average area of approximately 339 pixels. The density of objects is dense, indicating a high level of complexity in the scene.",
+      "llm_density_class": "dense",
+      "_llm_raw": "{\n  \"image_id\": \"test_004\",\n  \"n_objects\": 42,\n  \"mean_area\": 338.667,\n  \"density_class\": \"dense\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains a high number of objects, with an average area of approximately 339 pixels. The density of objects is dense, indicating a high level of complexity in the scene.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_005",
+    "narrative": "This image contains 15 objects with a mean area of approximately 437 pixels. The objects are spread out and not touching or merged.",
+    "json": {
+      "image_id": "test_005",
+      "n_objects": 15,
+      "mean_area": 436.933,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains 15 objects with a mean area of approximately 437 pixels. The objects are spread out and not touching or merged.",
+      "llm_density_class": "normal",
+      "_llm_raw": "{\n  \"image_id\": \"test_005\",\n  \"n_objects\": 15,\n  \"mean_area\": 436.933,\n  \"density_class\": \"normal\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 15 objects with a mean area of approximately 437 pixels. The objects are spread out and not touching or merged.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_006",
+    "narrative": "This image contains 8 objects, with an average area of approximately 200 pixels. The objects are spread out, indicating a sparse density.",
+    "json": {
+      "image_id": "test_006",
+      "n_objects": 8,
+      "mean_area": 199.75,
+      "density_class": "sparse",
+      "quality_flag": "ok",
+      "narrative": "This image contains 8 objects, with an average area of approximately 200 pixels. The objects are spread out, indicating a sparse density.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_006\",\n  \"n_objects\": 8,\n  \"mean_area\": 199.75,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 8 objects, with an average area of approximately 200 pixels. The objects are spread out, indicating a sparse density.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_007",
+    "narrative": "This image contains 23 objects, with an average area of approximately 207 pixels. The objects are spread out in a normal density, neither too sparse nor too dense.",
+    "json": {
+      "image_id": "test_007",
+      "n_objects": 23,
+      "mean_area": 206.957,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains 23 objects, with an average area of approximately 207 pixels. The objects are spread out in a normal density, neither too sparse nor too dense.",
+      "llm_density_class": "normal",
+      "_llm_raw": "{\n  \"image_id\": \"test_007\",\n  \"n_objects\": 23,\n  \"mean_area\": 206.957,\n  \"density_class\": \"normal\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 23 objects, with an average area of approximately 207 pixels. The objects are spread out in a normal density, neither too sparse nor too dense.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_008",
+    "narrative": "This image contains 23 objects, with an average area of 241.39 pixels. The objects are spread out, indicating a sparse density.",
+    "json": {
+      "image_id": "test_008",
+      "n_objects": 23,
+      "mean_area": 241.391,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains 23 objects, with an average area of 241.39 pixels. The objects are spread out, indicating a sparse density.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_008\",\n  \"n_objects\": 23,\n  \"mean_area\": 241.391,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 23 objects, with an average area of 241.39 pixels. The objects are spread out, indicating a sparse density.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_009",
+    "narrative": "This image contains a sparse distribution of objects, with 21 objects covering a relatively small area of 180.095 pixels each. The objects are not touching or merged, and the segmentation mask appears reliable.",
+    "json": {
+      "image_id": "test_009",
+      "n_objects": 21,
+      "mean_area": 180.095,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains a sparse distribution of objects, with 21 objects covering a relatively small area of 180.095 pixels each. The objects are not touching or merged, and the segmentation mask appears reliable.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_009\",\n  \"n_objects\": 21,\n  \"mean_area\": 180.095,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains a sparse distribution of objects, with 21 objects covering a relatively small area of 180.095 pixels each. The objects are not touching or merged, and the segmentation mask appears reliable.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_010",
+    "narrative": "This image contains 37 objects, with an average area of approximately 357 pixels. The objects are spread out over the image, indicating a sparse distribution.",
+    "json": {
+      "image_id": "test_010",
+      "n_objects": 37,
+      "mean_area": 356.919,
+      "density_class": "dense",
+      "quality_flag": "ok",
+      "narrative": "This image contains 37 objects, with an average area of approximately 357 pixels. The objects are spread out over the image, indicating a sparse distribution.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_010\",\n  \"n_objects\": 37,\n  \"mean_area\": 356.919,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 37 objects, with an average area of approximately 357 pixels. The objects are spread out over the image, indicating a sparse distribution.\"\n}"
+    }
+  },
+  {
+    "image_id": "test_011",
+    "narrative": "This image contains 20 objects, with an average area of 186.25 pixels. The objects are spread out, indicating a sparse density.",
+    "json": {
+      "image_id": "test_011",
+      "n_objects": 20,
+      "mean_area": 186.25,
+      "density_class": "normal",
+      "quality_flag": "ok",
+      "narrative": "This image contains 20 objects, with an average area of 186.25 pixels. The objects are spread out, indicating a sparse density.",
+      "llm_density_class": "sparse",
+      "_llm_raw": "{\n  \"image_id\": \"test_011\",\n  \"n_objects\": 20,\n  \"mean_area\": 186.25,\n  \"density_class\": \"sparse\",\n  \"quality_flag\": \"ok\",\n  \"narrative\": \"This image contains 20 objects, with an average area of 186.25 pixels. The objects are spread out, indicating a sparse density.\"\n}"
+    }
+  }
+]

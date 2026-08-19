@@ -1,0 +1,13 @@
+image_id,n_objects,mean_area,density_class,quality_flag,mean_eccentricity,mean_solidity,area_fraction
+test_000,8,192.5,sparse,ok,0.6341,0.9637,0.0235
+test_001,14,202.5,sparse,ok,0.6335,0.9506,0.04326
+test_002,26,221.038,normal,ok,0.6695,0.9471,0.08769
+test_003,19,206.105,normal,ok,0.6938,0.9646,0.05975
+test_004,42,338.667,dense,ok,0.657,0.926,0.21704
+test_005,15,436.933,normal,ok,0.6477,0.9319,0.10001
+test_006,8,199.75,sparse,ok,0.6174,0.9636,0.02438
+test_007,23,206.957,normal,ok,0.6485,0.9404,0.07263
+test_008,23,241.391,normal,ok,0.605,0.9465,0.08472
+test_009,21,180.095,normal,ok,0.616,0.9593,0.05771
+test_010,37,356.919,dense,ok,0.7373,0.9144,0.20151
+test_011,20,186.25,normal,ok,0.6424,0.964,0.05684

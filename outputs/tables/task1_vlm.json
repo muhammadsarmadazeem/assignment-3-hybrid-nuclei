@@ -1,0 +1,60 @@
+{
+  "image_id": "train_001",
+  "image_path": "/Users/novopay/Downloads/Assingnment-3-dataset-main/nuclei_dataset/train/images/train_001.png",
+  "naive_prompt": "Look at this medical image and tell me what is wrong with the patient. Give a diagnosis.",
+  "optimised_prompt": "You are a biomedical *image-description* assistant for an educational coursework exercise.\nYou are NOT a clinician. Do not diagnose disease, name a pathology, or recommend treatment.\n\nDescribe only what is visually present. If a field is unclear, write \"uncertain\" rather than guessing.\n\nReturn ONLY a JSON object with exactly these keys:\n{\n  \"modality\": \"<string; e.g. fluorescence microscopy, or uncertain>\",\n  \"tissue_type\": \"<string; e.g. stained cell nuclei, or uncertain>\",\n  \"notable_features\": [\"<short visual observations>\"],\n  \"image_quality\": \"<good | acceptable | poor | uncertain>\"\n}\n\nRules:\n- Do not invent an object count unless the objects are clearly countable in the image.\n- Do not mention cancer, infection, inflammation, or any clinical condition.\n- Prefer \"uncertain\" over speculation.\n- No markdown, no prose outside the JSON object.\n",
+  "naive": {
+    "raw": "To determine the diagnosis based on the provided medical image, we need to analyze the characteristics of the cells and any abnormalities they may exhibit. However, without specific details about the cell types, their morphology, and any mentioned symptoms or clinical context, it's challenging to provide a definitive diagnosis directly from the image description alone.\n\nTypically, in medical imaging, diagnoses are made based on a combination of clinical history, physical examination findings, and the specific characteristics of the cells or tissues observed in the images. For instance, if the image shows cells with abnormal morphology, such as increased size, irregular shape, or abnormal division patterns, it could suggest a diagnosis like cancer. However, without further context or details about the cell types and their characteristics, it's impossible to provide a specific diagnosis.\n\nIn a real-world scenario, a pathologist would examine the image in the context of the patient's medical history, symptoms, and other diagnostic findings to arrive at a diagnosis. If you have access to the actual image or more information about the cells and the patient's condition, a more accurate diagnosis could be provided.",
+    "json": null
+  },
+  "optimised": {
+    "raw": "{ \n  \"modality\": \"fluorescence microscopy\",\n  \"tissue_type\": \"stained cell nuclei\",\n  \"notable_features\": [\"blue spots\", \"uniform size\", \"evenly distributed\"],\n  \"image_quality\": \"good\"\n}",
+    "json": {
+      "modality": "fluorescence microscopy",
+      "tissue_type": "stained cell nuclei",
+      "notable_features": [
+        "blue spots",
+        "uniform size",
+        "evenly distributed"
+      ],
+      "image_quality": "good"
+    }
+  },
+  "repeats": [
+    {
+      "raw": "{ \n  \"modality\": \"fluorescence microscopy\", \n  \"tissue_type\": \"stained cell nuclei\", \n  \"notable_features\": [\"uniformly stained cell nuclei\", \"no apparent cell damage\"], \n  \"image_quality\": \"good\" \n}",
+      "json": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "stained cell nuclei",
+        "notable_features": [
+          "uniformly stained cell nuclei",
+          "no apparent cell damage"
+        ],
+        "image_quality": "good"
+      }
+    },
+    {
+      "raw": "{\n  \"modality\": \"fluorescence microscopy\",\n  \"tissue_type\": \"stained cell nuclei\",\n  \"notable_features\": [\"large, round, blue dots, evenly distributed across the image\"],\n  \"image_quality\": \"good\"\n}",
+      "json": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "stained cell nuclei",
+        "notable_features": [
+          "large, round, blue dots, evenly distributed across the image"
+        ],
+        "image_quality": "good"
+      }
+    },
+    {
+      "raw": "{  \n  \"modality\": \"fluorescence microscopy\",\n  \"tissue_type\": \"stained cell nuclei\",\n  \"notable_features\": [\"brightly staining cells with indistinct borders\"],\n  \"image_quality\": \"good\"\n}",
+      "json": {
+        "modality": "fluorescence microscopy",
+        "tissue_type": "stained cell nuclei",
+        "notable_features": [
+          "brightly staining cells with indistinct borders"
+        ],
+        "image_quality": "good"
+      }
+    }
+  ],
+  "repeats_identical": false
+}
